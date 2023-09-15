@@ -4,6 +4,12 @@ SELECT COUNT(*) AS NumeroDeEstudiantesMayoresDe30
 FROM estudiantes
 WHERE edad > 30;
 
+#Extrae los estudiantes, que su color preferido no es el amarillo.
+
+SELECT *
+FROM estudiantes
+WHERE color_preferido <> 'amarillo';
+
 #Extrae los estudiantes,que tienen la edad comprendida entre 50 y 60 años.
 
 SELECT *
